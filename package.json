@@ -15,7 +15,7 @@
     "url": "http://github.com/ua-parser/uap-ref-impl.git"
   },
   "licenses": [
-	{
+    {
       "type": "Apache-2.0",
       "url": "https://raw.github.com/ua-parser/uap-ref-impl/master/LICENSE"
     }
