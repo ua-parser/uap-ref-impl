@@ -2,7 +2,7 @@
   "name": "uap-ref-impl",
   "description": "Reference implementation of ua-parser.",
   "main": "./lib/parser",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "maintainers": [
     {
       "name": "Tobie Langel",
