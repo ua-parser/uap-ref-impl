@@ -1,8 +1,11 @@
 {
   "name": "uap-ref-impl",
-  "description": "Reference implementation of ua-parser.",
-  "main": "./lib/parser",
   "version": "0.3.0",
+  "description": "Reference implementation of ua-parser.",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ua-parser/uap-ref-impl.git"
+  },
   "maintainers": [
     {
       "name": "Tobie Langel",
@@ -10,23 +13,22 @@
       "web": "http://tobielangel.com"
     }
   ],
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/ua-parser/uap-ref-impl.git"
+  "main": "./lib/parser",
+  "scripts": {
+    "lint": "standard --fix --env mocha",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yamlparser": ">=0.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "standard": "^16.0.3"
   },
   "licenses": [
     {
       "type": "Apache-2.0",
       "url": "https://raw.github.com/ua-parser/uap-ref-impl/master/LICENSE"
     }
-  ],
-  "dependencies": {
-    "yamlparser": ">=0.0.2"
-  },
-  "devDependencies": {
-    "mocha": "*"
-  },
-  "scripts": {
-    "test": "mocha"
-  }
+  ]
 }
