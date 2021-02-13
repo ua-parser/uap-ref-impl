@@ -27,6 +27,6 @@
     "mocha": "*"
   },
   "scripts": {
-    "test": "mocha -u tdd ./test/*.js"
+    "test": "mocha"
   }
 }
