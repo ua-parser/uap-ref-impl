@@ -1,6 +1,6 @@
 {
   "name": "uap-ref-impl",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Reference implementation of ua-parser.",
   "repository": {
     "type": "git",
